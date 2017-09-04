@@ -1,7 +1,6 @@
-function binarynumber(a){
-    
-  while(a!=1)
-  {
+function binarynumber(){
+   var a = document.getElementById("target").value;
+  while(a!=1) {
       var hold = a % 2;
       if (hold == 0 )
       {
@@ -12,6 +11,5 @@ function binarynumber(a){
       document.write(hold);
       }
     a = a /2 ;
-    
       }
  }
