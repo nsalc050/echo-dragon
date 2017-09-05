@@ -1,16 +1,17 @@
-function binarynumber(a){
-
-  while(a!=1)
-  {
+function binarynumber(){
+   var a = document.getElementById("target").value;
+   var strhold ='';
+  while(a!=1) {
       var hold = a % 2;
       if (hold == 0 )
       {
-        document.write(hold);
+        strhold += hold;
       }
       if(hold == 1)
       {
-      document.write(hold);
-      }
+        strhold += hold;
       }
     a = a /2 ;
+      }
+     document.getElementById("destination").innerHTML = strhold;
  }
