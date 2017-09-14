@@ -1,0 +1,10 @@
+{ "name":"dummy",
+   "date of birth":"01/12/1986",
+   "address": {
+       "city":"Ottawa",
+       "street":"Bronson",
+       "postal code":"A1A 1A1"
+       },
+      "Alma matter":"Lawyer"
+      
+}
