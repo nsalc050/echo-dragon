@@ -1,9 +1,12 @@
 var http = require('http');
-var Person = JSON.parse(JSON.stringify);
+/*
+var text =localStorage.getItem("testJSON");
+var Person = JSON.parse(text); 
+console.log(Person.name); */
  var server = http.createServer(function(req,res) {
     res.writeHead(200,{'Content-Type':'text/plain'});
     res.write('hello');
-    res.write(Person);
+    //res.write(Person.name);
     res.end();
 
 });
