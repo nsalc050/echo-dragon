@@ -9,8 +9,7 @@ var json = (function () {
             json = data;
             
         }
-    });
+    }); 
     return json;
 })(); 
 console.log(json);
-
