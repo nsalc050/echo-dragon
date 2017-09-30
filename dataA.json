@@ -5,6 +5,8 @@
        "street":"Bronson",
        "postal code":"A1A 1A1"
        },
-      "Alma matter":"Lawyer"
-      
+      "Alma matter":"Lawyer",
+      "university" :["University Of Ottawa","Carleton","Western","Ryerson","Queens"]
+
+
 }

@@ -18,4 +18,3 @@ function binarynumber(){
   document.write(strhold);
    //  document.getElementById("destination").innerHTML = strhold;
  }
-binarynumber();
