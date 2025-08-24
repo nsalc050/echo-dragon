@@ -8,4 +8,4 @@ function CalculatebinaryNumber(num: number): number {
     return binary;
 }
 
-const binaryNumber = 
+console.log(CalculatebinaryNumber(10)); // Output: 1010
