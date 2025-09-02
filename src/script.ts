@@ -9,8 +9,10 @@ button.addEventListener("click",(e:MouseEvent) => {
 });
 
 inputfield.addEventListener("keydown",(e:KeyboardEvent) => {
-    console.log(e.key);
+   if(e.key === "Enter")
+   {
     buildboxes();
+   }
 });
 
 function buildboxes(){
